@@ -11,23 +11,6 @@ The agent will start playing the game automatically.
 
 
 
-📁 Project Structure
-
-Snake Game/
-├── agent.py # Main entry point: runs the game with the RL agent
-├── base.py # Core logic
-├── snake_game.py # Game mechanics (snake movement, collisions, food)
-├── game_no_ui.py # Headless version of the game for faster training
-├── model/ # Trained model weights and architecture (optional)
-├── assets/ # Fonts and visuals
-├── apple.jpg # Apple image used in the game
-├── block.jpg # Block image used in the game
-└── Readme.md # Project documentation
-
-
-
-
-
 🧠 Reinforcement Learning Approach
 ✅ Algorithm: Deep Q-Learning
 
