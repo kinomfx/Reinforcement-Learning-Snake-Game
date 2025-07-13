@@ -14,17 +14,15 @@ The agent will start playing the game automatically.
 📁 Project Structure
 
 Snake Game/
-├── __pycache__/
-├── assets/
-├── model/
-├── resources/
 ├── agent.py             # Main entry point: runs the game with the RL agent
-├── base.py              # contains utility classes or base components
-├── game_no_ui.py        # Game logic without rendering (for training or speed)
-├── snake_game.py        # Main game logic (used by agent)
-├── apple.jpg            # Apple image asset
-├── block.jpg            # Block image asset
+├── base.py              # Core logic
+├── snake_game.py        # Game mechanics (snake movement, collisions, food)
+├── game_no_ui.py        # Headless version of the game for faster training
+├── model/               # Trained model weights and architecture (optional)
+├── assets/              # fonts
+├── apple.jpg, block.jpg # Visual assets for the snake game
 └── Readme.md            # Project documentation
+
 
 
 
